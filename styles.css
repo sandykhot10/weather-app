@@ -53,3 +53,11 @@ button:hover {
             text-align: left;
     
 }
+button1 {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
