@@ -44,14 +44,12 @@ button:hover {
     font-size: 1.2em;
 }
 #cityInput{
-    
-            width: 300px;
-            padding: 10px;
-            font-size: 16px;
-            border: 2px solid #ccc;
-            border-radius: 5px;
-            text-align: left;
-    
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: left;    
 }
 button1 {
     padding: 10px 15px;
