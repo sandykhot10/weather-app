@@ -1,7 +1,8 @@
 document.getElementById('searchBtn').addEventListener('click', function () {
     const city = document.getElementById('cityInput').value;
-    const apiKey = 'YOUR_API_KEY_HERE'; // Replace with your OpenWeatherMap API key
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const apiKey = '197fdfa996f7f02446c11fcab1ae149e'; // Replace with your OpenWeatherMap API key
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; // Added &units=metric to get Celsius
+
 
     fetch(url)
         .then(response => response.json())
